@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # 启动命令和参数
-COMMAND="nohup ./ore-mine-pool-linux worker --server-url http://47.254.156.237:7891/ --threads 96  --worker-wallet-address BqM1gY674y4NMcCjvjfN3jPQ2i7pLuFyTu42RircdJ6N  >> worker.log 2>&1 &"
+COMMAND="nohup ./ore-mine-pool-linux worker --server-url http://47.254.156.237:7891/ --threads 123  --worker-wallet-address BqM1gY674y4NMcCjvjfN3jPQ2i7pLuFyTu42RircdJ6N  >> worker.log 2>&1 &"
 
 # 启动进程的函数
 start_process() {
